@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Carrots</title>
+    <link rel="stylesheet" href="carrots.css">
+</head>
+<body>
+    <script src="carrots.js"></script>
+
+    <div class="container">
+        <img src="https://st.depositphotos.com/1049691/2160/i/450/depositphotos_21609839-stock-photo-fresh-carrots.jpg" alt="carrots">
+        <div class="content">
+            <h1>Buy Carrots</h1>
+            <h2>1kg = Rs.500.00</h2>
+            <div id="qtyadder">
+                <h2>How many grams do you want?</h2>
+                <h2 id="display">0g</h2>
+                <button id="50g" onclick="add50()">+50g</button>
+                <button onclick="add100()" id="100g">+100g</button>
+                <button id="m50g" onclick="subs50()">-50g</button>
+                <h2>Rs <span id="price">0.00</span>/=</h2>
+                <button id="addcart" onclick="addcart()">Add to cart</button>
+                <h2>Do you need to buy anything else?</h2>
+                <button id="yes" onclick="buymore()">Yes</button>
+                <button id="no" onclick="ret()">No</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

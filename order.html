@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+   
+    <h1>Order Receipt</h1>
+
+    <table>
+        <tr>
+            <th>Vegetable</th>
+            <th>Quantity</th>
+            <th>Price(rs.)</th>
+        </tr>
+        <tr>
+            <td>Carrot</td>
+            <td id="cqty"></td>
+            <td id="cprice"></td>
+        </tr>
+        <tr>
+            <td>Onion</td>
+            <td id="oqty"></td>
+            <td id="oprice"></td>
+
+        </tr>
+        <tr>
+            <td>TOTAL</td>
+            <td>____</td>
+            <td id="tot"></td>
+        </tr>
+    </table>
+    <br><br>
+
+    <input type="name" id="namee" placeholder="Name"><br>
+    <input type="address" id="add" placeholder="Address"><br>
+    <input type="text" id="no" placeholder="Phone Number"><br>
+    <br>
+  
+    <button id="btn" onclick="final()" >Confirm & Pay</button>
+    <script src="order.js"></script>
+</body>
+</html>

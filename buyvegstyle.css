@@ -1,0 +1,38 @@
+.img1{
+
+    width: 500px;
+    border-radius: 100px;
+}
+.img2{
+    width: 500px;
+    border-radius: 100px;
+}
+
+.img3{
+    width: 500px;
+    border-radius: 100px;
+
+}
+
+.img4{
+    width: 500px;
+    border-radius: 100px;
+}
+.img5{
+    width: 500px;
+    border-radius: 100px;
+}
+.img6{
+
+    width: 500px;
+    border-radius: 100px;
+}
+
+body{
+    background-color: black;
+    
+}
+ul{
+    color: aliceblue;
+    font-size: x-large;
+}

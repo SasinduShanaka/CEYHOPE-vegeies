@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Onions</title>
+    <link rel="stylesheet" href="onion.css">
+  
+</head>
+<body>
+    <script src="onion.js"></script>
+    <div class="container">
+        <div class="content">
+            <h1>Buy Onions</h1>
+            <h2>1kg = Rs.300.00</h2>
+            <div id="qtyadder">
+                <h2>How many grams do you want?</h2>
+                <h2 id="display">0g</h2>
+                <button id="50g" onclick="add50()">+50g</button>
+                <button onclick="add100()" id="100g">+100g</button>
+                <button id="m50g" onclick="subs50()">-50g</button>
+                <h2>Rs <span id="price">0.00</span>/=</h2>
+                <button id="addcart" onclick="addcart()">Add to cart</button>
+                <h2>Do you need to buy anything else?</h2>
+                <button id="yes" onclick="buymore()">Yes</button>
+                <button id="no" onclick="ret()">No</button>
+            </div>
+        </div>
+        <img src="https://www.freshpoint.com/wp-content/uploads/commodity-red-onion.jpg" alt="onions">
+    </div>
+</body>
+</html>
+
